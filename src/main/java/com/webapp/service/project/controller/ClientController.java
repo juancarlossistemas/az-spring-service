@@ -10,7 +10,7 @@ public class ClientController {
 
     @GetMapping("/home")
     public String home() {
-        return "Hello mundo!";
+        return "Hello mundo modificado!";
     }
 
 }
